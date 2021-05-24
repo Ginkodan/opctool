@@ -7,9 +7,15 @@
 
 <script>
 import Toolbar from "@/components/Toolbar.vue";
-
+import { mapActions } from 'vuex';
 export default {
   components: { Toolbar },
+  mounted() {
+        this.READ_STORE();
+  },
+  methods: {
+    ...mapActions(['READ_STORE'])
+  }
 };
 </script>
 
