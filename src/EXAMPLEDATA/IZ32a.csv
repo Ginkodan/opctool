@@ -1,0 +1,466 @@
+[Header];;;;;;;;;;;;;;;;;;;;;;;;;;//
+VorlageVersion;V01.04.02;;;;;;;;;;;;;;;;;;;;;;;;;//
+NumColumn;27;;;;;;;;;;;;;;;;;;;;;;;;;//
+NumNameLevels;3;;;;;;;;;;;;;;;;;;;;;;;;;//
+Separator;""".""";;;;;;;;;;;;;;;;;;;;;;;;;//
+CodePage;1252;;;;;;;;;;;;;;;;;;;;;;;;;//
+FileName;IZ32a.csv;;;;;;;;;;;;;;;;;;;;;;;;;//
+Project name;Bundesanwaltschaft;;;;;;;;;;;;;;;;;;;;;;;;;//
+Responsible (Server);OPCServer generated version;;;;;;;;;;;;;;;;;;;;;;;;;//
+Company (Server);Siemens AG;;;;;;;;;;;;;;;;;;;;;;;;;//
+Revision number (Server);R02.00.00;;;;;;;;;;;;;;;;;;;;;;;;;//
+Date (Server);23.04.2012;;;;;;;;;;;;;;;;;;;;;;;;;//
+Time (Server);;;;;;;;;;;;;;;;;;;;;;;;;;//
+Responsible (Client);Peter Ingold;;;;;;;;;;;;;;;;;;;;;;;;;//
+Company (Client);Siemens AG;;;;;;;;;;;;;;;;;;;;;;;;;//
+Revision number (Client);R01.01.04;;;;;;;;;;;;;;;;;;;;;;;;;//
+Date (Client);05.02.2013;;;;;;;;;;;;;;;;;;;;;;;;;//
+Time (Client);13.29;;;;;;;;;;;;;;;;;;;;;;;;;//
+Responsible (Customer);Heinz Sommer;;;;;;;;;;;;;;;;;;;;;;;;;//
+Company (Customer);BBL;;;;;;;;;;;;;;;;;;;;;;;;;//
+Revision number (Customer);R02.00.00;;;;;;;;;;;;;;;;;;;;;;;;;//
+Date (Customer);23.04.2012;;;;;;;;;;;;;;;;;;;;;;;;;//
+Time (Customer);;;;;;;;;;;;;;;;;;;;;;;;;;//
+[/Header];;;;;;;;;;;;;;;;;;;;;;;;;;//
+[List];;;;;;;;;;;;;;;;;;;;;;;;;;//
+Name[1];Name[2];Name[3];@ItemSet;OPCGroup;Format;ReadOnly;UnitText;Punkt.Property;DescriptionText;Comment;$UserAddresse;Function;TimeStamp;Access;UpdateRate;Deadband100;$PSnr;$CTyp;$Group;$Instance;$Parameter;$PIndex;SubscribeOnDemand;MessageSuppression;MessagePriority;Flags
+VG2017:AS080;VG2017:VG'A'Ahu27'FdmpSu'FbMon02'Alm;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK #Konferenz klein ;;2017VG1X65Y741D2;;0;0;0;0;120;DI;0;1;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu27'FdmpSu'FbMon03'Alm;present-value;;;VT_BOOL;1;27;DI;ABL-BSK #Konferenz klein ;;2017VG1X65Y770D2;;0;0;0;0;120;DI;0;2;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;27;DI;Frostschutzwaechter #Lueft.Cafeteria ;;2017VGAL26F900D0;;0;0;0;0;120;DI;0;3;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Differenzdruckwaechter #Lueft.Cafeteria ;;2017VGAL26F930D0;;0;0;0;0;120;DI;0;4;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Differenzdruckwaechter #Lueft.Cafeteria ;;2017VGAL26F933D0;;0;0;0;0;120;DI;0;5;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FilOa;present-value;;;VT_BOOL;1;27;DI;Aussenluftfilter #Lueft.Cafeteria ;;2017VGAL26F950D0;;0;0;0;0;120;DI;0;6;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FilEx;present-value;;;VT_BOOL;1;27;DI;Abluftfilter #Lueft.Cafeteria ;;2017VGAL26F955D0;;0;0;0;0;120;DI;0;7;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FireDet;present-value;;;VT_BOOL;1;27;DI;Brand #Lueft.Cafeteria ;;2017VGAL26F960D0;;0;0;0;0;120;DI;0;8;DI;0;0;0;3;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;ZUL-Vent. Motorschutz #Lueft.Cafeteria ;;2017VGAL26M100D0;;0;0;0;0;120;DI;0;9;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;ABL-Vent.Motorschutz #Lueft.Cafeteria ;;2017VGAL26M130D0;;0;0;0;0;120;DI;0;10;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'PreHcl'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;LE-Pumpe Motorschutz #Lueft.Cafeteria ;;2017VGAL26M200D0;;0;0;0;0;120;DI;0;11;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanSu'MntnSwi;present-value;;;VT_BOOL;1;26;DI;ZUL-Vent.Wartungsschalter #Lueft.Cafeteria ;;2017VGAL26S100D0;;0;0;0;0;120;DI;0;12;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FanEx'MntnSwi;present-value;;;VT_BOOL;1;26;DI;ABL-Vent.Wartungsschalter #Lueft.Cafeteria ;;2017VGAL26S130D0;;0;0;0;0;120;DI;0;13;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'OpModSwi4;present-value;;;VT_BOOL;1;195;DI;Tableauschalter #Lueft.Cafeteria ;;2017VGAL26X001S1;;0;0;0;0;120;DI;0;14;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'OpModSwi;present-value;;;VT_BOOL;1;195;DI;Fernschalter #Lueft.Cafeteria ;;2017VGAL26X001S2;;0;0;0;0;120;DI;0;15;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FdmpSu'FbMon01'Alm;present-value;;;VT_BOOL;1;27;DI;AUL-BSK #Lueft.Cafeteria ;;2017VGAL26Y741D2;;0;0;0;0;120;DI;0;16;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FdmpSu'FbMon02'Alm;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK #Lueft.Cafeteria ;;2017VGAL26Y742D2;;0;0;0;0;120;DI;0;17;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu26'FdmpSu'FbMon03'Alm;present-value;;;VT_BOOL;1;27;DI;ABL-BSK #Lueft.Cafeteria ;;2017VGAL26Y770D2;;0;0;0;0;120;DI;0;18;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'AfAs80'CmnAlm2;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio.1 #Tableau T08 ;;2017VGAT08D000D0;;0;0;0;0;120;DI;0;19;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'AfAs80'CmnAlm3;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio.2 #Tableau T08 ;;2017VGAT08D001D0;;0;0;0;0;120;DI;0;20;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'AfAs80'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N #Tableau T08 ;;2017VGAT08F000D0;;0;0;0;0;120;DI;0;21;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'AfAs80'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung #Tableau T08 ;;2017VGAT08F001D0;;0;0;0;0;120;DI;0;22;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'AfAs80'AlmDis;present-value;;;VT_BOOL;1;27;DI;Alarmunterdrueckung #Tableau T08 ;;2017VGAT08S010D0;;0;0;0;0;120;DI;0;23;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'A'AfAs80'ErAs;present-value;;;VT_BOOL;1;27;DI;Statuswarnung AS-STA #Tableau T08 ;;2017VGAT08S010D3;;0;0;0;0;120;DI;0;24;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'X'CmnAlm4;present-value;;;VT_BOOL;1;27;DI;SA Schaltschrank T08  #Terassengeschoss ;;2017VGAT08X000H0;;0;0;0;0;120;DI;0;25;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'X'CmnAlm1;present-value;;;VT_BOOL;1;27;DI;SA Fachgebiet Lueftung #Lueft.Cafeteria ;;2017VGXL00X000H1;;0;0;0;0;120;DI;0;27;DI;0;0;0;0;//
+VG2017:AS080;VG2017:VG'X'CmnAlm3;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Gebaeude #City-West ;;2017VGXX00X000H1;;0;0;0;0;120;DI;0;28;DI;0;0;0;0;//
+VG2017:AS080;VG2017:VG'X'BIC80;present-value;;;VT_BOOL;1;27;DI;Kontroller AS080;;2017VGAT08C080H0;;0;0;0;0;120;DI;0;29;DI;0;0;0;1;//
+VG2017:AS080;VG2017:VG'X'BIOPC;present-value;;;VT_BOOL;1;193;DI;IZ32OPCClient Ueberwachung;;2017VGXDESIGO;;0;0;0;0;120;DI;0;251;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu29'BI1;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK Alarm #Druckdienst;;2017VG1L13Y742D0;;0;0;0;0;120;DI;0;26;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu29'BI2;present-value;;;VT_BOOL;1;113;DI;ZUL-BSK Rueckmeldung #Druckdienst;;2017VG1L13Y742D1;;0;0;0;0;120;DI;0;30;DI;0;0;0;0;//
+VG2017:AS080;VG2017:VG'A'Ahu30'BI1;present-value;;;VT_BOOL;1;27;DI;ZUL/ABL-BSK Alarm #Foyer;;2017VG1L13Y743D0;;0;0;0;0;120;DI;0;31;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu30'BI2;present-value;;;VT_BOOL;1;113;DI;ZUL/ABL-BSK Rueckmeldung #Foyer;;2017VG1L13Y743D1;;0;0;0;0;120;DI;0;32;DI;0;0;0;0;//
+VG2017:AS080;VG2017:VG'A'Ahu31'BI1;present-value;;;VT_BOOL;1;27;DI;ZUL/ABL-BSK Alarm #Spedition;;2017VG1L13Y744D0;;0;0;0;0;120;DI;0;33;DI;0;0;0;2;//
+VG2017:AS080;VG2017:VG'A'Ahu31'BI2;present-value;;;VT_BOOL;1;113;DI;ZUL/ABL-BSK Rueckmeldung #Spedition;;2017VG1L13Y744D1;;0;0;0;0;120;DI;0;34;DI;0;0;0;0;//
+VG2017:AS020;VG2017:VG'A'Aeh08'OpModSwi;present-value;;;VT_BOOL;1;194;DI;Tableauschalter#FOL-WC Zwischenbau ;;2017VGCL08S000D1;;0;0;0;0;120;DI;0;37;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'A'Aeh08'FanEh'ThOvrld1;present-value;;;VT_BOOL;1;127;DI;Thermo FOL-Venti.#FOL-WC Zwischenbau;;2017VGCL08M130D1;;0;0;0;0;120;DI;0;38;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Aeh08'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht geschl.#FOL-WC Zwischenbau;;2017VGCL08Y770D1;;0;0;0;0;120;DI;0;39;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Aeh08'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht offen#FOL-WC Zwischenbau;;2017VGCL08Y770D2;;0;0;0;0;120;DI;0;40;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Aeh09'OpModSwi;present-value;;;VT_BOOL;1;194;DI;Tableauschalter#FOL-Lift Zwischenbau ;;2017VGCL09S000D1;;0;0;0;0;120;DI;0;41;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'A'Aeh09'FanEh'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#FOL-Lift Zwischenbau;;2017VGCL09M130D0;;0;0;0;0;120;DI;0;42;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Aeh09'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht geschl.#FOL-Lift Zwischenbau;;2017VGCL09Y770D1;;0;0;0;0;120;DI;0;43;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Aeh09'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht offen#FOL-Lift Zwischenbau;;2017VGCL09Y770D2;;0;0;0;0;120;DI;0;44;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'OpModSwi;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Buero Zwischenbau;;2017VGCL06S000D0;;0;0;0;0;120;DI;0;45;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06B933D1;;0;0;0;0;120;DI;0;46;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanEx'ThOvrld;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06U601D0;;0;0;0;0;120;DI;0;47;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06M130D1;;0;0;0;0;120;DI;0;48;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06B930D1;;0;0;0;0;120;DI;0;49;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06U600D0;;0;0;0;0;120;DI;0;50;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Buero Zwischenbau;;2017VGCL06M100D1;;0;0;0;0;120;DI;0;51;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht geschl.#Lueft.Buero Zwischenbau;;2017VGCL06Y740D1;;0;0;0;0;120;DI;0;52;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht offen#Lueft.Buero Zwischenbau;;2017VGCL06Y740D2;;0;0;0;0;120;DI;0;53;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;27;DI;Frostschutzwaechter#Lueft.Buero Zwischenbau;;2017VGCL06F900D0;;0;0;0;0;120;DI;0;54;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu06'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;127;DI;Thermo LE-Pumpe#Lueft.Buero Zwischenbau;;2017VGCL06M200D1;;0;0;0;0;120;DI;0;55;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'OpModSwi;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Buero TG;;2017VGCL07S000D0;;0;0;0;0;120;DI;0;56;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Buero TG;;2017VGCL07B933D1;;0;0;0;0;120;DI;0;57;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanEx'ThOvrld;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Buero TG;;2017VGCL07U601D0;;0;0;0;0;120;DI;0;58;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Buero TG;;2017VGCL07M130D0;;0;0;0;0;120;DI;0;59;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Buero TG;;2017VGCL07B930D1;;0;0;0;0;120;DI;0;60;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Buero TG;;2017VGCL07M100D0;;0;0;0;0;120;DI;0;61;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Buero TG;;2017VGCL07U600D0;;0;0;0;0;120;DI;0;62;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht geschl.#Lueft.Buero TG;;2017VGCL07Y740D1;;0;0;0;0;120;DI;0;63;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;ZUL-BSK nicht offen#Lueft.Buero TG;;2017VGCL07Y740D2;;0;0;0;0;120;DI;0;64;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Buero TG;;2017VGCL07F900D0;;0;0;0;0;120;DI;0;65;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'A'Ahu07'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;127;DI;Thermo LE-Pumpe#Lueft.Buero TG;;2017VGCL07M200D1;;0;0;0;0;120;DI;0;66;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'CmnAlmT02'CmnAlmET3;present-value;;;VT_BOOL;1;27;DI;SA-Stockwerk 3.OG#CityWest;;2017VGCX00X000H0;;0;0;0;0;120;DI;0;67;DI;0;0;0;0;//
+VG2017:AS020;VG2017:VG'CmnAlmT02'CmnAlmT02;present-value;;;VT_BOOL;1;27;DI;SA Schaltschrank#T02 Zwischenbau;;2017VGCT02X000H0;;0;0;0;0;120;DI;0;68;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'CmnAlmT02'Dstb020;present-value;;;VT_BOOL;1;27;DI;Kontroller AS020#T02 Zwischenbau;;2017VGCT02C020H0;;0;0;0;0;120;DI;0;69;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'E'Mes'MtrCK7S;present-value;;;VT_BOOL;1;27;DI;SA-Kaeltezaehler#Lueft.Buero TG;;2017VGCR24B890D0;;0;0;0;0;120;DI;0;70;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'E'Mes'MtrCW7S;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Lueft.Buero TG;;2017VGCR44B890D0;;0;0;0;0;120;DI;0;71;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T02 Zwischenbau;;2017VGCT02C020D1;;0;0;0;0;120;DI;0;72;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T02 Zwischenbau;;2017VGCT02F000D0;;0;0;0;0;120;DI;0;73;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'BIP1;present-value;;;VT_BOOL;1;27;DI;Sammelalarm P1#T02 Zwischenbau;;2017VGCT02E000D1;;0;0;0;0;120;DI;0;74;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'BIP2;present-value;;;VT_BOOL;1;27;DI;Sammelalarm P2#T02 Zwischenbau;;2017VGCT02E000D2;;0;0;0;0;120;DI;0;75;DI;0;0;0;3;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T02 Zwischenbau;;2017VGCT02C020D4;;0;0;0;0;120;DI;0;76;DI;0;0;0;1;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS020#T02 Zwischenbau;;2017VGCT02C020D3;;0;0;0;0;120;DI;0;77;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T02 Zwischenbau;;2017VGCT02F960D0;;0;0;0;0;120;DI;0;78;DI;0;0;0;2;//
+VG2017:AS020;VG2017:VG'ElPnl'AfAs20'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N#T02 Zwischenbau;;2017VGCT02F001D0;;0;0;0;0;120;DI;0;79;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanEx'DPMon;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Buero EG;;5731BC1L01F933D0;;0;0;0;0;113;DI;0;1;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanEx'MntnSwi;present-value;;;VT_BOOL;1;26;DI;ABL-Vent.Wartungsschalter #Lueft.Buero EG;;5731BC1L01S130D0;;0;0;0;0;113;DI;0;2;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Buero EG;;5731BC1L01F130D0;;0;0;0;0;113;DI;0;3;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanSu'DPMon;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Buero EG;;5731BC1L01F930D0;;0;0;0;0;113;DI;0;4;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanSu'MntnSwi;present-value;;;VT_BOOL;1;26;DI;ZUL-Vent.Wartungsschalter #Lueft.Buero EG;;5731BC1L01S100D0;;0;0;0;0;113;DI;0;5;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'A'Ahu01'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Buero EG;;5731BC1L01F100D0;;0;0;0;0;113;DI;0;6;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'Fdp'FbMon01'Alm;present-value;;;VT_BOOL;1;27;DI;ZUL/ABL-BSK#Lueft.Buero EG;;5731BC1L01Y740D0;;0;0;0;0;113;DI;0;7;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;27;DI;Frost#Lueft.Buero EG;;5731BC1L01F900D0;;0;0;0;0;113;DI;0;8;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu02'FanEx'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft.WC EG;;5731BC1L02F130D0;;0;0;0;0;113;DI;0;9;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'AlmDis;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#T01 Belpstrasse 18;;5731BC1T01S001D0;;0;0;0;0;113;DI;0;10;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'CmnAlm03;present-value;;;VT_BOOL;1;27;DI;Sammelalarm P1#T01 Belpstrasse 18;;5731BC1T01D061D3;;0;0;0;0;113;DI;0;11;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'CmnAlm2;present-value;;;VT_BOOL;1;27;DI;Sammelalarm P2#T01 Belpstrasse 18;;5731BC1T01D061D2;;0;0;0;0;113;DI;0;12;DI;0;0;0;3;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'ErAs075;present-value;;;VT_BOOL;1;27;DI;Kontroller AS075#T01 Belpstrasse 18;;5731BC1T01C075H0;;0;0;0;0;113;DI;0;13;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T01 Belpstrasse 18;;5731BC1T01F960D0;;0;0;0;0;113;DI;0;14;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'LmpEmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T01 Belpstrasse 18;;5731BC1T01H001D0;;0;0;0;0;113;DI;0;15;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'E'ElPnl'AfAs061'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N#T01 Belpstrasse 18;;5731BC1T01F000D0;;0;0;0;0;113;DI;0;16;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'H'HGrp01'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgruppe Altbau;;5731BC1H01M500D0;;0;0;0;0;113;DI;0;17;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'H'HGrp02'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgruppe Anbau;;5731BC1H02M500D0;;0;0;0;0;113;DI;0;18;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'H'HGrp03'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgruppe Lueftung;;5731BC1H03M500D0;;0;0;0;0;113;DI;0;19;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'Alm075'CmnAlm11;present-value;;;VT_BOOL;1;52;DI;SA Gebaeude#Belpstrasse 18;;5731BCXX00X000H5;;0;0;0;0;113;DI;0;20;DI;0;0;0;0;//
+BC5731:AS075;BC5731:BC'Mes'MtrH01'CmnAlm01;present-value;;;VT_BOOL;1;27;DI;Waermezaehler#Heizgruppe Altbau;;5731BC1H01P890D0;;0;0;0;0;113;DI;0;21;DI;0;0;0;2;//
+BC5731:AS075;BC5731:BC'A'Ahu01'OpModSwi;present-value;;;VT_BOOL;1;199;DI;Tableauschalter#Lueft.Buero EG;;5731BC1L01S010S0;;0;0;0;0;113;DI;0;22;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'A'Ahu02'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Lueft.WC EG;;5731BC1L02S010S0;;0;0;0;0;113;DI;0;23;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'H'HGrp01'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Heizgruppe Altbau;;5731BC1H01S010D0;;0;0;0;0;113;DI;0;24;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'H'HGrp02'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Heizgruppe Anbau;;5731BC1H02S010D0;;0;0;0;0;113;DI;0;25;DI;0;0;0;1;//
+BC5731:AS075;BC5731:BC'H'HGrp03'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Heizgruppe Lueftung;;5731BC1H03S010D0;;0;0;0;0;113;DI;0;26;DI;0;0;0;1;//
+VX2018:AS074;VX2018:VG2018'A'Ahu2221'CmnAlm;present-value;;;VT_BOOL;1;28;DI;SA Lueftung#Effingerstr. 27;;2018VG1L01X000D0;;0;0;0;0;114;DI;0;5;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'A'Ahu2223'CmnAlm;present-value;;;VT_BOOL;1;28;DI;SA Lueft.WC 6.OG#Effingerstr. 27;;2018VGFL03X000D2;;0;0;0;0;114;DI;0;6;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'A'Ahu2226'CmnAlm;present-value;;;VT_BOOL;1;28;DI;SA KOMBV U018#Effingerstr. 27;;2018VG1L06X000D0;;0;0;0;0;114;DI;0;7;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'Alm2222'CmnAlm11;present-value;;;VT_BOOL;1;52;DI;SA Gebaeude#Effingerstr. 27;;2018VGXX00X000H0;;0;0;0;0;114;DI;0;8;DI;0;0;0;0;//
+VX2018:AS074;VX2018:VG2018'E'EEqp'Alm11;present-value;;;VT_BOOL;1;28;DI;Brand-Voralarm#Effingerstr. 27;;2018VG1F01X000D0;;0;0;0;0;114;DI;0;9;DI;0;0;0;3;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'AlmDis;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#T01 Effingerstr. 27;;2018VG2T02S001D0;;0;0;0;0;114;DI;0;12;DI;0;0;0;1;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'CmnAlm03;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio.3 #T01 Effingerstr. 27;;2018VG2T02D062D3;;0;0;0;0;114;DI;0;13;DI;0;0;0;3;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'CmnAlm2;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio.2#T01 Effingerstr. 27;;2018VG2T02D062D2;;0;0;0;0;114;DI;0;14;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'AlmFuLs;present-value;;;VT_BOOL;1;52;DI;LS-Ueberwachung#T01 Effingerstr. 27;;2018VG2T02F002D0;;0;0;0;0;114;DI;0;15;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS074#T01 Effingerstr. 27;;2018VG1T01C222H0;;0;0;0;0;114;DI;0;16;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'LmpEmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T01 Effingerstr. 27;;2018VG2T02H001D0;;0;0;0;0;114;DI;0;17;DI;0;0;0;1;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'VoltPh3N;present-value;;;VT_BOOL;1;52;DI;Spannung Phase 3-N#T01 Effingerstr. 27;;2018VG2T02F000D0;;0;0;0;0;114;DI;0;18;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp01'AlmExp01;present-value;;;VT_BOOL;1;27;DI;Expansion#Heizung;;2018VG2H01E390D0;;0;0;0;0;114;DI;0;19;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp01'CmnAlm01;present-value;;;VT_BOOL;1;27;DI;Ventomat#Heizung;;2018VG2H01E395D0;;0;0;0;0;114;DI;0;20;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp01'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Umformer;;2018VG2H01S010D0;;0;0;0;0;114;DI;0;21;DI;0;0;0;1;//
+VX2018:AS074;VX2018:VG2018'H'HGrp01'MxCrt'SftyTMon;present-value;;;VT_BOOL;1;28;DI;Sicherheitstemp.Waechter#Umformer;;2018VG2H01F910D0;;0;0;0;0;114;DI;0;22;DI;0;0;0;3;//
+VX2018:AS074;VX2018:VG2018'H'HGrp01'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Umformer;;2018VG2H01M500D0;;0;0;0;0;114;DI;0;23;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp02'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr. Effingerstr. 27;;2018VG2H02M500D0;;0;0;0;0;114;DI;0;24;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp03'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr. Hofanbau;;2018VG2H03M500D0;;0;0;0;0;114;DI;0;25;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrp04'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr. Lueftung;;2018VG2H04M500D0;;0;0;0;0;114;DI;0;26;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'H'HGrpBA1'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr. Belpstr. 18;;5731BA1H01M500D0;;0;0;0;0;114;DI;0;27;DI;0;0;0;2;//
+VX2018:AS074;VX2018:VG2018'S'SPlt'Alm02;present-value;;;VT_BOOL;1;28;DI;Abwasserpumpe 2.UG#Effingerstr. 27;;2018VG2S00X000D0;;0;0;0;0;114;DI;0;28;DI;0;0;0;3;//
+BX5728:AS224;BX5728:BG5728'Alm224'CmnAlm11;present-value;;;VT_BOOL;1;52;DI;SA Gebaeude#Haslerstr. 16;;5728BGXX00X000H0;;0;0;0;0;112;DI;0;1;DI;0;0;0;0;//
+BX5728:AS224;BX5728:BG5728'E'EEqp'Alm11;present-value;;;VT_BOOL;1;28;DI;Brand-Voralarm#Haslerstr. 16;;5728BG1F01X000D0;;0;0;0;0;112;DI;0;2;DI;0;0;0;2;//
+BX5728:AS224;BX5728:BG5728'E'EEqp'Alm12;present-value;;;VT_BOOL;1;28;DI;SA Notbeleuchtung#Haslerstr. 16;;5728BG1U01X000D0;;0;0;0;0;112;DI;0;3;DI;0;0;0;2;//
+BX5728:AS224;BX5728:BG5728'E'ElPnl'AfAs224'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS075#Haslerstr. 16;;5728BG1T01C075H0;;0;0;0;0;112;DI;0;4;DI;0;0;0;2;//
+BX5728:AS224;BX5728:BG5728'H'HGen2241'CmnAlm;present-value;;;VT_BOOL;1;27;DI;SA-Heizung#Haslerstr. 16;;5728BG1H01X000D0;;0;0;0;0;112;DI;0;5;DI;0;0;0;2;//
+BX5728:AS224;BX5728:BG5728'S'SPlt'Alm02;present-value;;;VT_BOOL;1;28;DI;Faekalienpumpen#Haslerstr. 16;;5728BG1S02X000D0;;0;0;0;0;112;DI;0;6;DI;0;0;0;3;//
+BX7149:AS020;BG7149'E'AfAs020'AlmDis;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#SGK T02 AS020;;7149BG1T02S001D0;;0;0;0;0;115;DI;0;12;DI;0;0;0;1;//
+BX7149:AS020;BG7149'E'AfAs020'AlmP1;present-value;;;VT_BOOL;1;52;DI;Alarm Prio 1#SGK T02 AS020;;7149BG1T02X000D0;;0;0;0;0;115;DI;0;17;DI;0;0;0;3;//
+BX7149:AS020;BG7149'E'AfAs020'AlmP2;present-value;;;VT_BOOL;1;52;DI;Alarm Prio 2#SGK T02 AS020;;7149BG1T02X000D1;;0;0;0;0;115;DI;0;18;DI;0;0;0;2;//
+BX7149:AS020;BG7149'E'AfAs020'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#SGK T02 AS020;;7149BG1T02C020D1;;0;0;0;0;115;DI;0;19;DI;0;0;0;1;//
+BX7149:AS020;BG7149'E'AfAs020'ErAs;present-value;;;VT_BOOL;1;52;DI;Statuswarnung AS-STA#SGK T02 AS020;;7149BG1T02C020D0;;0;0;0;0;115;DI;0;20;DI;0;0;0;2;//
+BX7149:AS020;BG7149'E'AfAs020'VoltPh3N;present-value;;;VT_BOOL;1;52;DI;Spannung Phase 3-N#SGK T02 AS020;;7149BG1T02S002D0;;0;0;0;0;115;DI;0;21;DI;0;0;0;3;//
+BX7149:AS020;BG7149'H'HGrp01'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;52;DI;Thermo Pumpe#Umformer;;7149BG1H01M200D0;;0;0;0;0;115;DI;0;22;DI;0;0;0;3;//
+BX7149:AS020;BG7149'H'HGrp01'MxCrt'SftyTMon;present-value;;;VT_BOOL;1;52;DI;Sicherheitstemp.-waechter#Umformer;;7149BG1H01F260D0;;0;0;0;0;115;DI;0;23;DI;0;0;0;3;//
+BX7149:AS020;BG7149'H'HGrp10'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;52;DI;Thermo Pumpe#Gruppe Wohnung;;7149BG1H10M500D0;;0;0;0;0;115;DI;0;24;DI;0;0;0;3;//
+BX7149:AS020;BG7149'H'HGrp11'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;52;DI;Thermo Pumpe#Gruppe Buero;;7149BG1H11M500D0;;0;0;0;0;115;DI;0;25;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'AfAs164'AlmDisL;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#SGK AS164;;7149BG1T16S001D0;;0;0;0;0;115;DI;0;26;DI;0;0;0;1;//
+BX7149:AS164;BG7149'E'AfAs164'AlmP11;present-value;;;VT_BOOL;1;52;DI;Alarm Prio 1#SGK AS164;;7149BG1T16X000D0;;0;0;0;0;115;DI;0;27;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'AfAs164'AlmP21;present-value;;;VT_BOOL;1;52;DI;Alarm Prio 2#SGK AS164;;7149BG1T16X000D1;;0;0;0;0;115;DI;0;28;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'AfAs164'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#SGK AS164;;7149BG1T16C164D1;;0;0;0;0;115;DI;0;29;DI;0;0;0;1;//
+BX7149:AS164;BG7149'E'AfAs164'ErAs;present-value;;;VT_BOOL;1;52;DI;Statuswarnung AS-STA#SGK AS164;;7149BG1T16C164D0;;0;0;0;0;115;DI;0;30;DI;0;0;0;2;//
+BX7149:AS164;BG7149'A'Ahu1641'Alm;present-value;;;VT_BOOL;1;27;DI;Temperaturueberw.# Klimaanlanlage EDV;;7149BG1L01X000D1;;0;0;0;0;115;DI;0;1;DI;0;0;0;2;//
+BX7149:AS164;BG7149'A'Ahu1641'AlmP1;present-value;;;VT_BOOL;1;27;DI;Raumtemperatur#EDV U105;;7149BG1L01X000M1;;0;0;0;0;115;DI;0;2;DI;0;0;0;2;//
+BX7149:AS164;BG7149'A'Ahu1641'CmnAlm;present-value;;;VT_BOOL;1;27;DI;SA UMLKG1#EDV U105;;7149BG1L01X000D0;;0;0;0;0;115;DI;0;3;DI;0;0;0;2;//
+BX7149:AS164;BG7149'A'Ahu1641'CmnAlm1;present-value;;;VT_BOOL;1;27;DI;SA UMLKG2#EDV U105;;7149BG1L01X000D2;;0;0;0;0;115;DI;0;4;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'FireDetA'Alm11;present-value;;;VT_BOOL;1;27;DI;Brand-Voralarm#Brandmeldeanlage;;7149BG0F01X000D0;;0;0;0;0;115;DI;0;7;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'3pusv'Dstb;present-value;;;VT_BOOL;1;27;DI;Sammelalarm#USV-Anlage;;7149BG1U01X000D0;;0;0;0;0;115;DI;0;8;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'3pl09'Alm13;present-value;;;VT_BOOL;1;27;DI;Techn. Stoerung#Personenlift H9;;7149BGEJ01X000D0;;0;0;0;0;115;DI;0;9;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'3pl07'Alm14;present-value;;;VT_BOOL;1;27;DI;Techn. Stoerung#Personenlift H7;;7149BG1J02X000D0;;0;0;0;0;115;DI;0;10;DI;0;0;0;2;//
+BX7149:AS164;BG7149'E'3pl11'Alm15;present-value;;;VT_BOOL;1;27;DI;Techn. Stoerung#Warenlift H11;;7149BGAJ03X000D0;;0;0;0;0;115;DI;0;11;DI;0;0;0;2;//
+BX7149:AS164;BG7149'S'SPlt'Dstb;present-value;;;VT_BOOL;1;27;DI;Sammelalarm#Faekalienpumpen;;7149BG1S01X000D0;;0;0;0;0;115;DI;0;13;DI;0;0;0;2;//
+BX7149:AS164;BG7149'RemAlm'B;present-value;;;VT_BOOL;1;52;DI;SA Gebaeude#Maulbeerstrasse 5-11;;7149BGXX00X000H0;;0;0;0;0;115;DI;0;14;DI;0;0;0;0;//
+BX7149:AS164;BG7149'E'EEqp'Alm16;present-value;;;VT_BOOL;1;27;DI;Netzersatzanlage#Betriebsbereit;;7149BG0N01X000D0;;0;0;0;0;115;DI;0;5;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'EEqp'Alm17;present-value;;;VT_BOOL;1;27;DI;Netzersatzanlage#Nicht Bereit;;7149BG0N02X000D0;;0;0;0;0;115;DI;0;6;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'EEqp'Alm18;present-value;;;VT_BOOL;1;27;DI;Netzersatzanlage#Notstrombetreib;;7149BG0N03X000D0;;0;0;0;0;115;DI;0;15;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'EEqp'Alm19;present-value;;;VT_BOOL;1;27;DI;Netzersatzanlage#Tankvoranlage;;7149BG0N04X000D0;;0;0;0;0;115;DI;0;16;DI;0;0;0;3;//
+BX7149:AS164;BG7149'E'ImpLife;present-value;;;VT_BOOL;1;10;DI;Lebenszeichen-Ueberw.#Maulbeerstr. 5-11;;7149BGXLIFEBITS0;;0;0;0;0;115;DI;0;250;DI;0;0;0;0;//
+VG2017:AS060;VG2017:VG'A'AexL21'FanEh'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft.Technik 4.UG;;2017VG4L21M130D0;;0;0;0;0;120;DI;0;80;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'A'AexL21'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Technik 4.UG;;2017VG4L21Y770D0;;0;0;0;0;120;DI;0;81;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'A'AexL21'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Technik 4.UG;;2017VG4L21Y770D1;;0;0;0;0;120;DI;0;82;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'A'AexL21'GasDet;present-value;;;VT_BOOL;1;27;DI;Freonalarm#Technikraum 4.UG;;2017VG4L21F960D0;;0;0;0;0;120;DI;0;83;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'AlmExpKW;present-value;;;VT_BOOL;1;27;DI;Expansion Kaltwasser#Kaeltemaschine;;2017VG4K01E490D0;;0;0;0;0;120;DI;0;84;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'AlmExpRK;present-value;;;VT_BOOL;1;27;DI;Expansion Rueckkuehlung#Kaeltemaschine;;2017VG4K01E491D0;;0;0;0;0;120;DI;0;85;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'Cds'Pu'Dstb;present-value;;;VT_BOOL;1;27;DI;Stroemung Kondensator#Kaeltemaschine;;2017VG4K02B830D0;;0;0;0;0;120;DI;0;86;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'Cds'Pu'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo Kond.Pumpe#Kaeltemaschine;;2017VG4K03M200D0;;0;0;0;0;120;DI;0;87;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'CdsWRG'Pu'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo WRG Pumpe#Kaeltemaschine;;2017VG4K04M200D0;;0;0;0;0;120;DI;0;88;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'Evp'Pu'Dstb;present-value;;;VT_BOOL;1;27;DI;Stroemung KW-Pumpe#Kaeltemaschine;;2017VG4K03B830D0;;0;0;0;0;120;DI;0;89;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'Evp'Pu'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo KW-Pumpe#Kaeltemaschine;;2017VG4K02M200D0;;0;0;0;0;120;DI;0;90;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'C'CGenK0'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Kaelteerzeugung;;2017VG4K01S000D1;;0;0;0;0;120;DI;0;91;DI;0;0;0;1;//
+VG2017:AS060;VG2017:VG'C'CGenK0'RfMch'FltInd;present-value;;;VT_BOOL;1;27;DI;Sammelalarm#Kaeltemaschine;;2017VG4K01E100D0;;0;0;0;0;120;DI;0;92;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T06 Kaelteerzeugung 4.UG;;2017VG4T06S000D1;;0;0;0;0;120;DI;0;93;DI;0;0;0;1;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T06 Kaelteerzeugung 4.UG;;2017VG4T06F000D0;;0;0;0;0;120;DI;0;94;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'El240V;present-value;;;VT_BOOL;1;27;DI;Versorgung 240 Volt#T06 Kaelteerzeugung 4.UG;;2017VG4T06F001D0;;0;0;0;0;120;DI;0;95;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T06 Kaelteerzeugung 4.UG;;2017VG4T06C060D4;;0;0;0;0;120;DI;0;96;DI;0;0;0;1;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS060#T06 Kaelteerzeugung 4.UG;;2017VG4T06C060D3;;0;0;0;0;120;DI;0;97;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'ElPnl'AfAs60'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T06 Kaelteerzeugung 4.UG;;2017VG4T06F960D0;;0;0;0;0;120;DI;0;98;DI;0;0;0;2;//
+VG2017:AS060;VG2017:VG'Mes'CEg60'BI04;present-value;;;VT_BOOL;1;27;DI;Kaeltezaehler Hauptmessung#T06 Kaelteerzeugung;;2017VG4Q41B890D0;;0;0;0;0;120;DI;0;99;DI;0;0;0;1;//
+VG2017:AS060;VG2017:VG'Mes'HEg60'BI05;present-value;;;VT_BOOL;1;27;DI;Waermezaehler WRG#T06 Kaelteerzeugung;;2017VG4R35B890D0;;0;0;0;0;120;DI;0;100;DI;0;0;0;1;//
+VG2017:AS010;VG2017:VG'A'AexL03'FanEh'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft.Liftraum;;2017VGOL03M130D1;;0;0;0;0;120;DI;0;101;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL03'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Liftraum;;2017VGOL03Y770D1;;0;0;0;0;120;DI;0;102;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL03'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Liftraum;;2017VGOL03Y770D2;;0;0;0;0;120;DI;0;103;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL01'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#WC Turm;;2017VGOL01Y770D0;;0;0;0;0;120;DI;0;104;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL01'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#WC Turm;;2017VGOL01Y770D2;;0;0;0;0;120;DI;0;105;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL02'FanEh'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#WC 1.UG - EG;;2017VGOL02M130D1;;0;0;0;0;120;DI;0;106;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL02'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#WC 1.UG - EG;;2017VGOL02Y770D3;;0;0;0;0;120;DI;0;107;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AexL02'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#WC 1.UG - EG;;2017VGOL02Y770D4;;0;0;0;0;120;DI;0;108;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04B933D1;;0;0;0;0;120;DI;0;109;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04U601D0;;0;0;0;0;120;DI;0;110;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04M130D1;;0;0;0;0;120;DI;0;111;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04B930D1;;0;0;0;0;120;DI;0;112;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04U600D0;;0;0;0;0;120;DI;0;113;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Buero Hochhaus;;2017VGOL04M100D1;;0;0;0;0;120;DI;0;114;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;Klappe nicht geschlossen#Lueft.Buero Hochhaus;;2017VGOL04Y740D1;;0;0;0;0;120;DI;0;115;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;Klappe nicht offen#Lueft.Buero Hochhaus;;2017VGOL04Y740D2;;0;0;0;0;120;DI;0;116;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'OpModSwi;present-value;;;VT_BOOL;1;204;DI;Tableauschalter#Lueft.Buero Hochhaus;;2017VGOL04S000D0;;0;0;0;0;120;DI;0;117;DI;0;0;0;1;//
+VG2017:AS010;VG2017:VG'A'AhuL04'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;27;DI;Frostschutzwaechter#Lueft.Buero Hochhaus;;2017VGOL04F900D0;;0;0;0;0;120;DI;0;118;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL04'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Buero Hochhaus;;2017VGOL04M200D1;;0;0;0;0;120;DI;0;119;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Buero 13.OG;;2017VGOL05B933D1;;0;0;0;0;120;DI;0;120;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermoelektrische ueberlast#Lueft.Buero 13.OG;;2017VGOL05M130D1;;0;0;0;0;120;DI;0;121;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Differenzdruckwaechter#Lueft.Buero 13.OG;;2017VGOL05B930D1;;0;0;0;0;120;DI;0;122;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermoelektrische ueberlast#Lueft.Buero 13.OG;;2017VGOL05M100D1;;0;0;0;0;120;DI;0;123;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Buero 13.OG;;2017VGOL05Y740D1;;0;0;0;0;120;DI;0;124;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Buero 13.OG;;2017VGOL05Y740D2;;0;0;0;0;120;DI;0;125;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'OpModSwi;present-value;;;VT_BOOL;1;194;DI;Tableauschalter#Lueft.Buero 13.OG;;2017VGOL05S000D1;;0;0;0;0;120;DI;0;126;DI;0;0;0;1;//
+VG2017:AS010;VG2017:VG'A'AhuL05'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;27;DI;Frostschutzwaechter#Lueft.Buero 13.OG;;2017VGOL05F900D0;;0;0;0;0;120;DI;0;127;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'A'AhuL05'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Buero 13.OG;;2017VGOL05M200D1;;0;0;0;0;120;DI;0;128;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'C'AexK05'FanEh'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Ventilator#Rueckkuehler Kaelte;;2017VGOK05M130D0;;0;0;0;0;120;DI;0;129;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T01 Dach Hochhaus;;2017VGOT01S000D1;;0;0;0;0;120;DI;0;130;DI;0;0;0;1;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T01 Dach Hochhaus;;2017VGOT01F000D0;;0;0;0;0;120;DI;0;131;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'El240V;present-value;;;VT_BOOL;1;27;DI;Versorgung 240 Volt#T01 Dach Hochhaus;;2017VGOT01F001D0;;0;0;0;0;120;DI;0;132;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T01 Dach Hochhaus;;2017VGOT01C010D4;;0;0;0;0;120;DI;0;133;DI;0;0;0;1;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS010#T01 Dach Hochhaus;;2017VGOT01C010D3;;0;0;0;0;120;DI;0;134;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'AfAs10'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T01 Dach Hochhaus;;2017VGOT01F960D0;;0;0;0;0;120;DI;0;135;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'CmnFlt12;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio 2#T01 Dach Hochhaus;;2017VGOT01E000D1;;0;0;0;0;120;DI;0;136;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'ElPnl'CmnFlt13;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio 3#T01 Dach Hochhaus;;2017VGOT01E000D2;;0;0;0;0;120;DI;0;137;DI;0;0;0;3;//
+VG2017:AS010;VG2017:VG'H'HGrpH07'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Heizgr.Pumpe#Buero Hochhaus Ost;;2017VGOH07M400D1;;0;0;0;0;120;DI;0;138;DI;0;0;0;2;//
+VG2017:AS010;VG2017:VG'Mes'CmnAlm10M;present-value;;;VT_BOOL;1;27;DI;SA Elektromessung#T01 Dach Hochhaus;;2017VGOR07B890D0;;0;0;0;0;120;DI;0;139;DI;0;0;0;1;//
+VG2017:AS070;VG2017:VG'C'CGrpE'MxCrt'Pu'FltVsd;present-value;;;VT_BOOL;1;27;DI;Frequenzumrichte#Kaeltegruppe EDV;;2017VG1K08M400D0;;0;0;0;0;120;DI;0;140;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'C'CGrpE'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Kaeltegruppe EDV;;2017VG1K08M400D1;;0;0;0;0;120;DI;0;141;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'C'CGrpL'Pu'FltVsd;present-value;;;VT_BOOL;1;27;DI;Frequenzumrichter#Kaeltegr.Lueftung;;2017VG1K07M400D0;;0;0;0;0;120;DI;0;142;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'C'CGrpL'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Kaeltegr.Lueftung;;2017VG1K07M400D1;;0;0;0;0;120;DI;0;143;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'E'DstbBA;present-value;;;VT_BOOL;1;28;DI;Blindstromanlage;;2017VG2E01X000D0;;0;0;0;0;120;DI;0;144;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'E'DstbL1;present-value;;;VT_BOOL;1;28;DI;SA Personenlift#L1 Turm;;2017VGOJ01X000D0;;0;0;0;0;120;DI;0;145;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL11;present-value;;;VT_BOOL;1;28;DI;SA Personenlift#L11 Restaurant;;2017VG2J09X000D0;;0;0;0;0;120;DI;0;146;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL2;present-value;;;VT_BOOL;1;28;DI;SA Personenlift#L2 Turm;;2017VGOJ02X000D0;;0;0;0;0;120;DI;0;147;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL3;present-value;;;VT_BOOL;1;28;DI;SA Personenlift#L3 Turm;;2017VGOJ03X000D0;;0;0;0;0;120;DI;0;148;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL4;present-value;;;VT_BOOL;1;28;DI;SA Warenliftt#L4 Turm;;2017VGOJ04X000D0;;0;0;0;0;120;DI;0;149;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL5;present-value;;;VT_BOOL;1;28;DI;SA Personenlift#L5 Zwischenbau;;2017VGCJ05X000D0;;0;0;0;0;120;DI;0;150;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbL6;present-value;;;VT_BOOL;1;28;DI;SA Warenlift L6#Zwischenbau;;2017VG4J06X000D0;;0;0;0;0;120;DI;0;151;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbNA;present-value;;;VT_BOOL;1;28;DI;Sammelalarm#Notstromanlage;;2017VG2N01X000D0;;0;0;0;0;120;DI;0;152;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbNR;present-value;;;VT_BOOL;1;28;DI;Sammelalarm#Notstromraum;;2017VG0N01X001D0;;0;0;0;0;120;DI;0;153;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'E'DstbSA;present-value;;;VT_BOOL;1;28;DI;Sammelanlage#Storenanlage;;2017VGAJ21X000D0;;0;0;0;0;120;DI;0;154;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'E'DstbTE;present-value;;;VT_BOOL;1;28;DI;Sammelanlage#Teilentsalzung;;2017VG4S10X000D0;;0;0;0;0;120;DI;0;155;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'ElPnl'AfAs70'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T07 Kaelteverteilung 1.UG;;2017VG1T07S001D1;;0;0;0;0;120;DI;0;156;DI;0;0;0;1;//
+VG2017:AS070;VG2017:VG'ElPnl'AfAs70'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T07 Kaelteverteilung 1.UG;;2017VG1T07F000D0;;0;0;0;0;120;DI;0;157;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'ElPnl'AfAs70'El240V;present-value;;;VT_BOOL;1;27;DI;Versorgung 240 Volt#T07 Kaelteverteilung 1.UG;;2017VG1T07F001D0;;0;0;0;0;120;DI;0;158;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'ElPnl'AfAs70'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T07 Kaelteverteilung 1.UG;;2017VG1T07C070D4;;0;0;0;0;120;DI;0;159;DI;0;0;0;1;//
+VG2017:AS070;VG2017:VG'ElPnl'AfAs70'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS070#T07 Kaelteverteilung 1.UG;;2017VG1T07C070D3;;0;0;0;0;120;DI;0;160;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'E'MntnNA;present-value;;;VT_BOOL;1;26;DI;Notstromanlage#kontrollieren;;2017VG0N01X000D0;;0;0;0;0;120;DI;0;161;DI;0;0;0;2;//
+VG2017:AS070;VG2017:VG'E'OpMsgNA;present-value;;;VT_BOOL;1;9;DI;Betrieb#Notstromanlage;;2017VG0N01X000D1;;0;0;0;0;120;DI;0;162;DI;0;0;0;3;//
+VG2017:AS070;VG2017:VG'Mes'CEg70'DstbCI8;present-value;;;VT_BOOL;1;27;DI;Kaeltezaehler#Klima EDV;;2017VG1R45B890D0;;0;0;0;0;120;DI;0;163;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL1'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#WC Turm;;2017VG1L01Y741D1;;0;0;0;0;120;DI;0;35;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL1'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#WC Turm;;2017VG1L01Y741D2;;0;0;0;0;120;DI;0;166;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL2'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#WC EG - 1.UG.;;2017VG1L02Y741D1;;0;0;0;0;120;DI;0;167;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL2'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#WC EG - 1.UG.;;2017VG1L02Y741D2;;0;0;0;0;120;DI;0;168;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL17'FanEh'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.FOL-Venti.#Lueft. 3.UG;;2017VG1L17B930D0;;0;0;0;0;120;DI;0;169;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL17'FanEh'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft. 3.UG;;2017VG1L17M130D1;;0;0;0;0;120;DI;0;170;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL18'FanEh'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.FOL-Venti.#Lueft. Rampen;;2017VG1L18B930D0;;0;0;0;0;120;DI;0;171;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL18'FanEh'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft. Rampen;;2017VG1L18M130D1;;0;0;0;0;120;DI;0;172;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FanEh'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.FOL-Venti.#Lueft. Parking;;2017VG1L20B933D1;;0;0;0;0;120;DI;0;173;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FanEh'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft. Parking;;2017VG1L20M130D1;;0;0;0;0;120;DI;0;174;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft. Parking;;2017VG1L20B930D1;;0;0;0;0;120;DI;0;175;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FanSu'ThOvrld2;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft. Parking;;2017VG1L20M100D0;;0;0;0;0;120;DI;0;176;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FdmpEx'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft. Parking;;2017VG1L20Y740D1;;0;0;0;0;120;DI;0;177;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AexL20'FdmpEx'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft. Parking;;2017VG1L20Y740D2;;0;0;0;0;120;DI;0;178;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'Alm;present-value;;;VT_BOOL;1;27;DI;Sammelstoerung BSK#Lueft. L17 - L18 + L20;;2017VG1L13Y740D0;;0;0;0;0;120;DI;0;179;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13B933D1;;0;0;0;0;120;DI;0;180;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13M130D1;;0;0;0;0;120;DI;0;181;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13M130D0;;0;0;0;0;120;DI;0;182;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13B930D1;;0;0;0;0;120;DI;0;183;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13U600D1;;0;0;0;0;120;DI;0;184;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Terrassengeschoss;;2017VG1L13M100D0;;0;0;0;0;120;DI;0;185;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Terrassengeschoss;;2017VG1L13Y740D1;;0;0;0;0;120;DI;0;186;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Terrassengeschoss;;2017VG1L13Y740D2;;0;0;0;0;120;DI;0;187;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'OpModSwi;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Terrassengeschoss;;2017VG1L13S000D0;;0;0;0;0;120;DI;0;188;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'A'AhuL13'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Terrassengeschoss;;2017VG1L13F900D0;;0;0;0;0;120;DI;0;189;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Terrassengeschoss;;2017VG1L13M200D1;;0;0;0;0;120;DI;0;190;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'ZL'PreHclL'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Terrassengeschoss;;2017VG1L13F901D0;;0;0;0;0;120;DI;0;193;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL13'ZL'PreHclL'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Terrassengeschoss;;2017VG1L13M201D1;;0;0;0;0;120;DI;0;194;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Konferenz A + B;;2017VG1L23B933D1;;0;0;0;0;120;DI;0;195;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Konferenz A + B;;2017VG1L23U601D1;;0;0;0;0;120;DI;0;196;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Konferenz A + B;;2017VG1L23M130D1;;0;0;0;0;120;DI;0;197;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Konferenz A + B;;2017VG1L23B930D1;;0;0;0;0;120;DI;0;198;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Konferenz A + B;;2017VG1L23U600D1;;0;0;0;0;120;DI;0;199;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Konferenz A + B;;2017VG1L23M100D1;;0;0;0;0;120;DI;0;200;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Konferenz A + B;;2017VG1L23Y740D1;;0;0;0;0;120;DI;0;201;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Konferenz A + B;;2017VG1L23Y740D2;;0;0;0;0;120;DI;0;202;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'OpModSwi;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Konferenz A + B;;2017VG1L23S000D0;;0;0;0;0;120;DI;0;203;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'A'AhuL23'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Konferenz A + B;;2017VG1L23F900D0;;0;0;0;0;120;DI;0;204;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL23'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Konferenz A + B;;2017VG1L23M200D1;;0;0;0;0;120;DI;0;205;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Bibliothek;;2017VG1L25B933D1;;0;0;0;0;120;DI;0;206;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Bibliothek;;2017VG1L25U601D0;;0;0;0;0;120;DI;0;207;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Bibliothek;;2017VG1L25M130D1;;0;0;0;0;120;DI;0;208;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Bibliothek;;2017VG1L25B930D1;;0;0;0;0;120;DI;0;209;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Bibliothek;;2017VG1L25U600D0;;0;0;0;0;120;DI;0;210;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FanSu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Bibliothek;;2017VG1L25M100D1;;0;0;0;0;120;DI;0;211;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Bibliothek;;2017VG1L25Y740D1;;0;0;0;0;120;DI;0;212;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Bibliothek;;2017VG1L25Y740D2;;0;0;0;0;120;DI;0;213;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'OpModSwi;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Bibliothek;;2017VG1L25S000D0;;0;0;0;0;120;DI;0;214;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'A'AhuL25'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Bibliothek;;2017VG1L25F900D0;;0;0;0;0;120;DI;0;215;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'A'AhuL25'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Bibliothek;;2017VG1L25M200D1;;0;0;0;0;120;DI;0;216;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'ElPnl'AfAs40'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T04 Lueftungen 1.UG;;2017VG1T04C040D4;;0;0;0;0;120;DI;0;217;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'ElPnl'AfAs40'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS040#T04 Lueftungen 1.UG;;2017VG1T04C040D3;;0;0;0;0;120;DI;0;218;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'ElPnl'AfAs40'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T04 Lueftungen 1.UG;;2017VG1T04F960D0;;0;0;0;0;120;DI;0;219;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'ElPnl'AfAs40'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N#T04 Lueftungen 1.UG;;2017VG1T04F001D0;;0;0;0;0;120;DI;0;220;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'ElPnl'CmnFlt2;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 2#T04 Lueftungen 1.UG;;2017VG1T04E000D1;;0;0;0;0;120;DI;0;221;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'ElPnl'CmnFlt3;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 3#T04 Lueftungen 1.UG;;2017VG1T04E000D2;;0;0;0;0;120;DI;0;222;DI;0;0;0;3;//
+VG2017:AS040;VG2017:VG'H'HGrpH03'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Bibliothek;;2017VG1H03M400D1;;0;0;0;0;120;DI;0;223;DI;0;0;0;2;//
+VG2017:AS040;VG2017:VG'H'HGrpH03'MxCrt'SftyTMon;present-value;;;VT_BOOL;1;27;DI;Sicherheitstemp.waechter#Heizgr.Bibliothek;;2017VG1H03F910D0;;0;0;0;0;120;DI;0;224;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'Mes'CEg40'DstbL23;present-value;;;VT_BOOL;1;27;DI;SA-Kaeltezaehler#Lueft.Konferenz A-B;;2017VG1R47B890D0;;0;0;0;0;120;DI;0;225;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'Mes'CEg40'DstbL25;present-value;;;VT_BOOL;1;27;DI;SA-Kaeltezaehler#Lueft.Bibliothek;;2017VG1R42B890D0;;0;0;0;0;120;DI;0;226;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'Mes'HEg40'DstbH03;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Heizgr.Bibliothek;;2017VG1R25B890D0;;0;0;0;0;120;DI;0;227;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'Mes'HEg40'DstbL23;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehle#Lueft.Konferenz A-B;;2017VG1R29B890D0;;0;0;0;0;120;DI;0;228;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'Mes'HEg40'DstbL25;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Lueft.Bibliothek;;2017VG1R31B890D0;;0;0;0;0;120;DI;0;229;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'A'AexL22'FanEh'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Geschirrabwaschmasch.EG;;2017VG1L22M130D1;;0;0;0;0;120;DI;0;230;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AexL22'FdmpEh'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Geschirrabwaschmasch.EG;;2017VG1L22Y770D1;;0;0;0;0;120;DI;0;231;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AexL22'FdmpEh'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Geschirrabwaschmasch.EG;;2017VG1L22Y770D2;;0;0;0;0;120;DI;0;232;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10B933D1;;0;0;0;0;120;DI;0;233;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10U601D1;;0;0;0;0;120;DI;0;234;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10M130D0;;0;0;0;0;120;DI;0;235;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10B930D1;;0;0;0;0;120;DI;0;236;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10U600D1;;0;0;0;0;120;DI;0;237;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Kueche 1.UG;;2017VG1L10M100D0;;0;0;0;0;120;DI;0;238;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Kueche 1.UG;;2017VG1L10Y740D1;;0;0;0;0;120;DI;0;239;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Kueche 1.UG;;2017VG1L10Y740D2;;0;0;0;0;120;DI;0;240;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'OpModSwik;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Kueche 1.UG;;2017VG1L10S000D0;;0;0;0;0;120;DI;0;241;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Kueche 1.UG;;2017VG1L10F900D0;;0;0;0;0;120;DI;0;242;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL10'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Kueche 1.UG;;2017VG1L10M200D1;;0;0;0;0;120;DI;0;243;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'Erc'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo WRG-Motor#Lueft.Restaurant 1.UG-EG;;2017VG1L11M550D1;;0;0;0;0;120;DI;0;244;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanEx'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11B933D1;;0;0;0;0;120;DI;0;245;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanEx'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11U601D1;;0;0;0;0;120;DI;0;246;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanEx'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11M130D0;;0;0;0;0;120;DI;0;247;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanExW'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo FOL-Venti.#Lueft.WC 1.UG;;2017VG1L11M131D2;;0;0;0;0;120;DI;0;249;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11B930D1;;0;0;0;0;120;DI;0;250;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanSu'DstbVsd;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11U600D2;;0;0;0;0;120;DI;0;252;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Restaurant 1.UG-EG;;2017VG1L11M100D0;;0;0;0;0;120;DI;0;253;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Restaurant 1.UG-EG;;2017VG1L11Y740D1;;0;0;0;0;120;DI;0;254;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Restaurant 1.UG-EG;;2017VG1L11Y740D2;;0;0;0;0;120;DI;0;255;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'OpModSwi1;present-value;;;VT_BOOL;1;203;DI;Tableauschalter#Lueft.Restaurant 1.UG-EG;;2017VG1L11S000D0;;0;0;0;0;121;DI;0;1;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'A'AhuL11'ZNR'PreHcl'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Nebenraeume 1.UG;;2017VG1L11M200D0;;0;0;0;0;121;DI;0;2;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL11'ZUG'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Restaurant 1.UG;;2017VG1L11F901D0;;0;0;0;0;121;DI;0;3;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FanEh'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Restaurant West;;2017VG1L12B933D1;;0;0;0;0;121;DI;0;4;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FanEh'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Restaurant West;;2017VG1L12M130D1;;0;0;0;0;121;DI;0;5;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FanSu'DPMonOPC;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti.#Lueft.Restaurant West;;2017VG1L12B930D1;;0;0;0;0;121;DI;0;6;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Restaurant West;;2017VG1L12M100D1;;0;0;0;0;121;DI;0;7;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FdmpSu'FbMon01'AlmNc;present-value;;;VT_BOOL;1;27;DI;BSK nicht geschl.#Lueft.Restaurant West;;2017VG1L12Y740D1;;0;0;0;0;121;DI;0;8;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'FdmpSu'FbMon01'AlmNo;present-value;;;VT_BOOL;1;27;DI;BSK nicht offen#Lueft.Restaurant West;;2017VG1L12Y740D2;;0;0;0;0;121;DI;0;9;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'OpModSwi2;present-value;;;VT_BOOL;1;202;DI;Tableauschalter#Lueft.Restaurant West;;2017VG1L12S001D2;;0;0;0;0;121;DI;0;10;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'A'AhuL12'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;28;DI;Frostschutzwaechter#Lueft.Restaurant West;;2017VG1L12F900D0;;0;0;0;0;121;DI;0;11;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'A'AhuL12'PreHcl'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo LE-Pumpe#Lueft.Restaurant West;;2017VG1L12M200D1;;0;0;0;0;121;DI;0;12;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T03 Lueftungen 1.UG;;2017VG1T03C030D1;;0;0;0;0;121;DI;0;13;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T03 Lueftungen 1.UG;;2017VG1T03F000D0;;0;0;0;0;121;DI;0;14;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'BIP1;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 2#T03 Lueftungen 1.UG;;2017VG1T03E000D1;;0;0;0;0;121;DI;0;15;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'BIP2;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 3#T03 Lueftungen 1.UG;;2017VG1T03E000D2;;0;0;0;0;121;DI;0;16;DI;0;0;0;3;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T03 Lueftungen 1.UG;;2017VG1T03C030D4;;0;0;0;0;121;DI;0;17;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS030#T03 Lueftungen 1.UG;;2017VG1T03C030D3;;0;0;0;0;121;DI;0;18;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T03 Lueftungen 1.UG;;2017VG1T03F960D0;;0;0;0;0;121;DI;0;19;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'ElPnl'AfAs30'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N#T03 Lueftungen 1.UG;;2017VG1T03F001D0;;0;0;0;0;121;DI;0;20;DI;0;0;0;2;//
+VG2017:AS030;VG2017:VG'Mes'CEg3'DstbKR;present-value;;;VT_BOOL;1;27;DI;SA-Kaeltezaehler#Lueft.Restaurant;;2017VG1R34B890D0;;0;0;0;0;121;DI;0;21;DI;0;0;0;1;//
+VG2017:AS030;VG2017:VG'Mes'HEg3'DstbWR;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Lueft.Restaurant;;2017VG1R30B890D0;;0;0;0;0;121;DI;0;22;DI;0;0;0;1;//
+VG2017:AS040;VG2017:VG'ElPnl'AfAs40'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T04 Lueftungen 1.UG;;2017VG1T04S000D1;;0;0;0;0;121;DI;0;23;DI;0;0;0;1;//
+VG2017:AS050;VG2017:VG'ElPnl'AfAs50'AlmDis;present-value;;;VT_BOOL;1;10;DI;Alarmunterdrueckung#T05 Heizung 4.UG;;2017VG4T05S000D1;;0;0;0;0;121;DI;0;24;DI;0;0;0;1;//
+VG2017:AS050;VG2017:VG'ElPnl'AfAs50'AlmFuLs;present-value;;;VT_BOOL;1;27;DI;LS-Ueberwachung#T05 Heizung 4.UG;;2017VG4T05F001D0;;0;0;0;0;121;DI;0;25;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'ElPnl'AfAs50'El240V;present-value;;;VT_BOOL;1;27;DI;Versorgung 240 Volt#T05 Heizung 4.UG;;2017VG4T05F000D0;;0;0;0;0;121;DI;0;26;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'ElPnl'AfAs50'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T05 Heizung 4.UG;;2017VG4T05C050D4;;0;0;0;0;121;DI;0;27;DI;0;0;0;1;//
+VG2017:AS050;VG2017:VG'ElPnl'AfAs50'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS050#T05 Heizung 4.UG;;2017VG4T05C050D3;;0;0;0;0;121;DI;0;28;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'ElPnl'FltUEqp1;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 2#T05 Heizung 4.UG;;2017VG4T05X000D2;;0;0;0;0;121;DI;0;29;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'ElPnl'FltUEqp2;present-value;;;VT_BOOL;1;28;DI;Sammelalarm Prio 3#T05 Heizung 4.UG;;2017VG4T05X000D3;;0;0;0;0;121;DI;0;30;DI;0;0;0;3;//
+VG2017:AS050;VG2017:VG'H'HGrpH01'AlmExp;present-value;;;VT_BOOL;1;27;DI;SA-Expansion#Heizung 4.UG;;2017VG4H01E290D0;;0;0;0;0;121;DI;0;31;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH01'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Umformer Heizung;;2017VG4H01M200D0;;0;0;0;0;121;DI;0;32;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH01'MxCrt'SftyTMon;present-value;;;VT_BOOL;1;28;DI;Sicherheitstemp.-waechter#Umformer Heizung;;2017VG4H01F700D0;;0;0;0;0;121;DI;0;33;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH02'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Restaurant 1.UG-EG;;2017VG4H02M400D1;;0;0;0;0;121;DI;0;34;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH04'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Buero 1.UG;;2017VG4H04M400D1;;0;0;0;0;121;DI;0;35;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH05'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Buero Turm + Zwischenbau;;2017VG4H05M400D0;;0;0;0;0;121;DI;0;36;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH06'MxCrt'Pu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Lueftungen;;2017VG4H06M400D0;;0;0;0;0;121;DI;0;37;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'H'HGrpH08'MxCrt'SftyTMon;present-value;;;VT_BOOL;1;27;DI;Sicherheitstemp.-waechter#Umformer BWW;;2017VG4H08F700D0;;0;0;0;0;121;DI;0;38;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'HEg50'BI04;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Hauptmessung LE;;2017VG4R26B890D0;;0;0;0;0;121;DI;0;39;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'HEg50'BI05;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Eingangsmessung;;2017VG4Q21B890D0;;0;0;0;0;121;DI;0;40;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'HEg50'BI06;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Restaurant 1.UG-EG;;2017VG4R21B890D0;;0;0;0;0;121;DI;0;41;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'HEg50'BI07;present-value;;;VT_BOOL;1;27;DI;SA-Waermezaehler#Buero Laeden;;2017VG4R22B890D0;;0;0;0;0;121;DI;0;42;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'MtrH50'BI01;present-value;;;VT_BOOL;1;27;DI;SA-BWW-Zaehler#Fremdmieter;;2017VG4R34B890D0;;0;0;0;0;121;DI;0;43;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'MtrH50'BI02;present-value;;;VT_BOOL;1;27;DI;SA-BWW-Zaehler#Restaurant 1.UG-EG;;2017VG4R32B890D0;;0;0;0;0;121;DI;0;44;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'Mes'MtrH50'BI03;present-value;;;VT_BOOL;1;27;DI;SA-BWW-Zaehler#Turm;;2017VG4R33B890D0;;0;0;0;0;121;DI;0;45;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH09'CirPu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Zirk.Pumpe#BWW Fremdmieter;;2017VG4S01M500D1;;0;0;0;0;121;DI;0;46;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH09'DhwCrg'PuPrim'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Prim.Pumpe#BWW Fremdmieter;;2017VG4H09M400D1;;0;0;0;0;121;DI;0;47;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH09'DhwCrg'PuSec'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Sek.Pumpe#BWW Fremdmieter;;2017VG4S01M400D1;;0;0;0;0;121;DI;0;48;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH10'CirPu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Zirk.Pumpe#BWW Restaurant 1.UG-EG;;2017VG4S02M500D1;;0;0;0;0;121;DI;0;49;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH10'DhwCrg'PuPrim'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Prim.Pumpe#BWW Restaurant 1.UG-EG;;2017VG4H10M400D1;;0;0;0;0;121;DI;0;50;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH10'DhwCrg'PuSec'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Sek.Pumpe#BWW Restaurant 1.UG-EG;;2017VG4S02M400D1;;0;0;0;0;121;DI;0;51;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH11'CirPu'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Zirk.Pumpe#BWW Turm;;2017VG4S03M500D1;;0;0;0;0;121;DI;0;52;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH11'DhwCrg'PuPrim'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Prim.Pumpe#BWW Turm;;2017VG4H11M400D1;;0;0;0;0;121;DI;0;53;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'DhwH11'DhwCrg'PuSec'ThOvrld1;present-value;;;VT_BOOL;1;27;DI;Thermo Sek.Pumpe#BWW Turm;;2017VG4S03M400D1;;0;0;0;0;121;DI;0;54;DI;0;0;0;2;//
+VG2017:AS050;VG2017:VG'S'WstwPlt'DevFlt;present-value;;;VT_BOOL;1;28;DI;Sammelalarm#Abwasseranlage;;2017VG4S04X000D0;;0;0;0;0;121;DI;0;55;DI;0;0;0;3;//
+VX2018:AS030;VY2018'Alm2222'CmnAlm11;present-value;;;VT_BOOL;1;52;DI;SA Gebaeude#Effingerstrasse 29;;2018VGXX00X000H1;;0;0;0;0;114;DI;0;3;DI;0;0;0;0;//
+VX2018:AS030;VY2018'E'AfAs030'AlmDis;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#T03 Effingerstr. 29;;2018VG2T03S001D0;;0;0;0;0;114;DI;0;10;DI;0;0;0;1;//
+VX2018:AS030;VY2018'E'AfAs030'AlmFuLs;present-value;;;VT_BOOL;1;52;DI;LS-Ueberwachung#T03 Effingerstr. 29;;2018VG2T03F980D0;;0;0;0;0;114;DI;0;11;DI;0;0;0;2;//
+VX2018:AS030;VY2018'E'AfAs030'EmO;present-value;;;VT_BOOL;1;69;DI;Handeingriff#T03 Effingerstr. 29;;2018VG2T03C030D1;;0;0;0;0;114;DI;0;29;DI;0;0;0;1;//
+VX2018:AS030;VY2018'E'AfAs030'ErAs;present-value;;;VT_BOOL;1;27;DI;Kontroller AS030#T03 Effingerstr. 29;;2018VG2T03C030D0;;0;0;0;0;114;DI;0;30;DI;0;0;0;2;//
+VX2018:AS030;VY2018'H'HGrp01'LmpA;present-value;;;VT_BOOL;1;27;DI;SA#Heizgr.West Effingerstr. 29;;2018VG2H15H000D0;;0;0;0;0;114;DI;0;31;DI;0;0;0;2;//
+VX2018:AS030;VY2018'H'HGrp01'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.West Effingerstr. 29;;2018VG2H15M500D0;;0;0;0;0;114;DI;0;32;DI;0;0;0;2;//
+VX2018:AS030;VY2018'H'HGrp01'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Heizgr.West Effingerstr. 29;;2018VG2H15S010D0;;0;0;0;0;114;DI;0;33;DI;0;0;0;1;//
+VX2018:AS030;VY2018'H'HGrp02'LmpA;present-value;;;VT_BOOL;1;27;DI;SA#Heizgr.Ost Effingerstr. 29;;2018VG2H16H000D0;;0;0;0;0;114;DI;0;34;DI;0;0;0;2;//
+VX2018:AS030;VY2018'H'HGrp02'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Heizgr.Ost Effingerstr. 29;;2018VG2H16M500D0;;0;0;0;0;114;DI;0;35;DI;0;0;0;1;//
+VX2018:AS030;VY2018'H'HGrp02'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#Heizgr.Ost Effingerstr. 29;;2018VG2H16S010D0;;0;0;0;0;114;DI;0;36;DI;0;0;0;1;//
+VX2018:AS074;VG2018'H'HGrp05'MxCrt'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Fernleitung zu Eff.29;;2018VG2H05M500D0;;0;0;0;0;114;DI;0;37;DI;0;0;0;2;//
+VX2018:AS074;VG2018'S'Dhw'CirPu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Zirkulation BWW;;2018VG2S01M501D0;;0;0;0;0;114;DI;0;38;DI;0;0;0;2;//
+VX2018:AS074;VG2018'S'Dhw'DhwCrg'Pu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo Pumpe#Ladepumpe BWW;;2018VG2S01M500D0;;0;0;0;0;114;DI;0;39;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FanEx'Er;present-value;;;VT_BOOL;1;27;DI;FU ABL-Venti.#Lueft.Sitzungszimmer;;2018VG1L04M130D0;;0;0;0;0;114;DI;0;40;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FanEx'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ABL-Venti.#Lueft.Sitzungszimmer;;2018VG1L04M130D1;;0;0;0;0;114;DI;0;41;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FanSu'Er;present-value;;;VT_BOOL;1;27;DI;FU ZUL-Venti.#Lueft.Sitzungszimmer;;2018VG1L04M100D0;;0;0;0;0;114;DI;0;42;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FanSu'ThOvrld;present-value;;;VT_BOOL;1;27;DI;Thermo ZUL-Venti.#Lueft.Sitzungszimmer;;2018VG1L04M100D1;;0;0;0;0;114;DI;0;43;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FdmpEx'FbMon'Alm;present-value;;;VT_BOOL;1;27;DI;ZUL/ABL-BSK#Lueft.Sitzungszimmer;;2018VG1L04Y740D0;;0;0;0;0;114;DI;0;44;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FilExDet;present-value;;;VT_BOOL;1;27;DI;Abluftfilter#Lueft.Sitzungszimmer;;2018VG1L04I955D0;;0;0;0;0;114;DI;0;45;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'FilOaDet;present-value;;;VT_BOOL;1;27;DI;Aussenluftfilter#Lueft.Sitzungszimmer;;2018VG1L04I950D0;;0;0;0;0;114;DI;0;46;DI;0;0;0;2;//
+VX2018:AS040;VG2018'A'Ahu04'SenMon1;present-value;;;VT_BOOL;1;27;DI;Fuehlerstoerung#Lueft.Sitzungszimmer;;2018VG1L04I800D0;;0;0;0;0;114;DI;0;47;DI;0;0;0;2;//
+VX2018:AS040;VG2018'E'AfAs040'AlmDis;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#T04 Lueftung 1.UG AS040;;2018VG1T04S002D0;;0;0;0;0;114;DI;0;48;DI;0;0;0;1;//
+VX2018:AS040;VG2018'E'AfAs040'CmnAlm02;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio 2#T04 Lueftung 1.UG AS040;;2018VG1T04D002D0;;0;0;0;0;114;DI;0;49;DI;0;0;0;2;//
+VX2018:AS040;VG2018'E'AfAs040'CmnAlm03;present-value;;;VT_BOOL;1;27;DI;Sammelalarm Prio 3#T04 Lueftung 1.UG AS040;;2018VG1T04D003D0;;0;0;0;0;114;DI;0;50;DI;0;0;0;3;//
+VX2018:AS040;VG2018'E'AfAs040'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#T04 Lueftung 1.UG AS040;;2018VG1T04F960D0;;0;0;0;0;114;DI;0;51;DI;0;0;0;3;//
+VX2018:AS040;VG2018'E'AfAs040'VoltPh3N;present-value;;;VT_BOOL;1;27;DI;Spannung Phase 3-N#T04 Lueftung 1.UG AS040;;2018VG1T04F980D0;;0;0;0;0;114;DI;0;52;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FanEx'DPMonopc;present-value;;;VT_BOOL;1;27;DI;Stroem.ABL-Venti.#Lueft.Erfrischungsraum;;2018VG2L01F933H0;;0;0;0;0;114;DI;0;57;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FanEx'Dstbopc;present-value;;;VT_BOOL;1;52;DI;Thermo ABL-Venti.#Lueft.Erfrischungsraum;;2018VG2L01M130H0;;0;0;0;0;114;DI;0;58;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FanSu'DPMonopc;present-value;;;VT_BOOL;1;27;DI;Stroem.ZUL-Venti#Lueft.Erfrischungsraum;;2018VG2L01F930H0;;0;0;0;0;114;DI;0;59;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FanSu'Dstbopc;present-value;;;VT_BOOL;1;52;DI;Thermo ZUL-Venti.#Lueft.Erfrischungsraum;;2018VG2L01M100H0;;0;0;0;0;114;DI;0;60;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FdmpSu'Dstbopc;present-value;;;VT_BOOL;1;27;DI;SA-Alarm BSKs#Lueft.Erfrischungsraum;;2018VG2L01F750H0;;0;0;0;0;114;DI;0;61;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#Lueft.Erfrischungsraum;;2018VG2L01F750D0;;0;0;0;0;114;DI;0;62;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'PreHcl'FrPrtMon;present-value;;;VT_BOOL;1;52;DI;Frost#Lueft.Erfrischungsraum;;2018VG2L01F900D0;;0;0;0;0;114;DI;0;63;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'PreHcl'Pu'Dstbopc;present-value;;;VT_BOOL;1;52;DI;Thermo LE-Pumpe#Lueft.Erfrischungsraum;;2018VG2L01M200H0;;0;0;0;0;114;DI;0;64;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu02'FanEh'Dstbopc;present-value;;;VT_BOOL;1;52;DI;Thermo FOL-Venti.#Lueft.Toiletten;;2018VG2L02M130D1;;0;0;0;0;114;DI;0;65;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu02'FireDet;present-value;;;VT_BOOL;1;28;DI;Brand#Lueft.Toiletten;;2018VG2L02F750D0;;0;0;0;0;114;DI;0;66;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'EEqp'BI;present-value;;;VT_BOOL;1;28;DI;SA-Alarm Prio 1#SGK T01;;2018VG1X00X000D0;;0;0;0;0;114;DI;0;67;DI;0;0;0;3;//
+VX2018:AS074;VG2018'E'EEqp'BI1;present-value;;;VT_BOOL;1;28;DI;SA-Alarm Prio 2#SGK T01;;2018VG1X00X000D1;;0;0;0;0;114;DI;0;68;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'AlmDis1;present-value;;;VT_BOOL;1;110;DI;Alarmunterdrueckung#SGK T01;;2018VG2T01S001D0;;0;0;0;0;114;DI;0;69;DI;0;0;0;1;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'AlmFuLs1;present-value;;;VT_BOOL;1;52;DI;LS-Ueberwachung#SGK T01;;2018VG2T01F002D0;;0;0;0;0;114;DI;0;70;DI;0;0;0;2;//
+VX2018:AS074;VG2018'E'ElPnl'AfAs074'VoltPh3N1;present-value;;;VT_BOOL;1;28;DI;Spannung Phase 3-N#SGK T01;;2018VG2T01F000D0;;0;0;0;0;114;DI;0;71;DI;0;0;0;2;//
+VX2018:AS074;VG2018'A'Ahu01'OpModSwi;present-value;;;VT_BOOL;1;202;DI;Tableauschalter#Lueft.Erfrischungsraum;;2018VG2L01S001D0;;0;0;0;0;114;DI;0;72;DI;0;0;0;1;//
+VX2018:AS074;VG2018'A'Ahu02'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#FOL-Toiletten;;2018VG2L02S001D1;;0;0;0;0;114;DI;0;73;DI;0;0;0;1;//
+VX2018:AS030;VY2018'S'Dhw01'DhwCrg'PuPrim'ThOvrld;present-value;;;VT_BOOL;1;28;DI;Thermo Prim.Pumpe#BWW Ladung Heizung;;2018VG2S16M500D0;;0;0;0;0;114;DI;0;74;DI;0;0;0;2;//
+VX2018:AS030;VY2018'S'Dhw01'DhwCrg'PuSec'ThOvrld;present-value;;;VT_BOOL;1;28;DI;Thermo Sek.Pumpe#BWW Ladung Heizung;;2018VG2S16M501D0;;0;0;0;0;114;DI;0;75;DI;0;0;0;2;//
+VX2018:AS030;VY2018'S'Dhw01'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#BWW Ladung Heizung;;2018VG2S16S010D0;;0;0;0;0;114;DI;0;76;DI;0;0;0;1;//
+VX2018:AS030;VY2018'S'Dhw01'TOvrOPC;present-value;;;VT_BOOL;1;28;DI;Uebertemperaturwaechter#BWW Ladung Heizung;;2018VG2S16F910D0;;0;0;0;0;114;DI;0;77;DI;0;0;0;2;//
+VX2018:AS030;VY2018'S'HGrp03'OpModSwi;present-value;;;VT_BOOL;1;196;DI;Tableauschalter#BWW Ladung Solar;;2018VG2S15S010D0;;0;0;0;0;114;DI;0;78;DI;0;0;0;1;//
+VX2018:AS030;VY2018'S'HGrp03'Pu'ThOvrld;present-value;;;VT_BOOL;1;28;DI;Thermo Pumpe#BWW Ladung Solar;;2018VG2S15M500D0;;0;0;0;0;114;DI;0;79;DI;0;0;0;2;//
+[/List];;;;;;;;;;;;;;;;;;;;;;;;;;//

@@ -1,0 +1,1472 @@
+{
+	"pointopc": {
+		"stateTexts": {
+			"headers": [
+				{
+					"text": "Unit Textnummer",
+					"align": "start",
+					"sortable": false,
+					"value": "unitNumber"
+				},
+				{
+					"text": "Unit Text",
+					"value": "unitText"
+				},
+				{
+					"text": "Typ",
+					"value": "type"
+				},
+				{
+					"text": "Default Value",
+					"value": "defaultValue"
+				},
+				{
+					"text": "Alarm Value",
+					"value": "alarmValue"
+				},
+				{
+					"text": "Sende Text",
+					"value": "sendText"
+				}
+			],
+			"units": [
+				{
+					"unitNumber": 0,
+					"unitText": "UNDEF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 0,
+					"sendText": "UNDEF"
+				},
+				{
+					"unitNumber": 1,
+					"unitText": "AUS / STUFE 1",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 2,
+					"unitText": "AUS / STUFE 1 / STUFE 2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 3,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 4,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3 / STUFE 4",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 5,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3 / STUFE 4 / STUFE 5",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 6,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3 / STUFE 4 / STUFE 5 / STUFE 6",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 7,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3 / STUFE 4 / STUFE 5 / STUFE 6 / STUFE 7",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 8,
+					"unitText": "AUS / STUFE 1 / STUFE 2 / STUFE 3 / STUFE 4 / STUFE 5 / STUFE 6 / STUFE 7 / STUFE 8",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 9,
+					"unitText": "AUS / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "EIN"
+				},
+				{
+					"unitNumber": 10,
+					"unitText": "EIN / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 11,
+					"unitText": "OFFEN / GESCHL.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GESCHL."
+				},
+				{
+					"unitNumber": 12,
+					"unitText": "AUF / AB",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AB"
+				},
+				{
+					"unitNumber": 13,
+					"unitText": "AUF / ZU",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZU"
+				},
+				{
+					"unitNumber": 14,
+					"unitText": "START / STOP",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOP"
+				},
+				{
+					"unitNumber": 15,
+					"unitText": "SETZEN / RUECKS.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "RUECKS."
+				},
+				{
+					"unitNumber": 16,
+					"unitText": "VOR / ZURUECK",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 17,
+					"unitText": "AUSG.ST. / ENDSTELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ENDSTELL"
+				},
+				{
+					"unitNumber": 18,
+					"unitText": "TAG / NACHT",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "NACHT"
+				},
+				{
+					"unitNumber": 19,
+					"unitText": "SCHNELL / LANGSAM",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LANGSAM"
+				},
+				{
+					"unitNumber": 20,
+					"unitText": "HEIZEN / KUEHLEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KUEHLEN"
+				},
+				{
+					"unitNumber": 21,
+					"unitText": "SOMMER / WINTER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WINTER"
+				},
+				{
+					"unitNumber": 22,
+					"unitText": "RECHTS / LINKS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 23,
+					"unitText": "AUTO / HAND",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HAND"
+				},
+				{
+					"unitNumber": 24,
+					"unitText": "AKTIV / PASSIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 25,
+					"unitText": "NORMAL / ANORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ANORMAL"
+				},
+				{
+					"unitNumber": 26,
+					"unitText": "NORMAL / WARTUNG",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WARTUNG"
+				},
+				{
+					"unitNumber": 27,
+					"unitText": "NORMAL / STOERUNG",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOERUNG"
+				},
+				{
+					"unitNumber": 28,
+					"unitText": "NORMAL / ALARM",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ALARM"
+				},
+				{
+					"unitNumber": 29,
+					"unitText": "NORMAL / GEFAHR",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GEFAHR"
+				},
+				{
+					"unitNumber": 30,
+					"unitText": "NORMAL / INITIALI",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "INITIAL"
+				},
+				{
+					"unitNumber": 31,
+					"unitText": "NORMAL / OPTIMIER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OPTIMIER"
+				},
+				{
+					"unitNumber": 32,
+					"unitText": "UNTEN / MITTE / OBEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OBEN"
+				},
+				{
+					"unitNumber": 33,
+					"unitText": "AUF / MITTE / ZURUECK",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 34,
+					"unitText": "VOR / MITTE / ZURUECK",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 35,
+					"unitText": "AUSG.ST. / MITTELST / ENDSTELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ENDSTELL"
+				},
+				{
+					"unitNumber": 36,
+					"unitText": "SCHNELL / MITTEL / LANGSAM",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LANGSAM"
+				},
+				{
+					"unitNumber": 37,
+					"unitText": "SCHNELL / LANGSAM / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 38,
+					"unitText": "HEIZEN / NEUTRAL / KUEHLEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KUEHLEN"
+				},
+				{
+					"unitNumber": 39,
+					"unitText": "RECHTS / MITTE / LINKS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 40,
+					"unitText": "RECHTS / AUSG.ST. / LINKS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 41,
+					"unitText": "RECHTS / RUHEST. / LINKS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 42,
+					"unitText": "RECHTS / AUS / LINKS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 43,
+					"unitText": "AUTO / HAND / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 44,
+					"unitText": "NORMAL / WARTUNG / ALARM",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 2,
+					"sendText": "ALARM"
+				},
+				{
+					"unitNumber": 46,
+					"unitText": "LANGSAM / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 47,
+					"unitText": "SCHNELL / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 48,
+					"unitText": "LOKAL / FERN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FERN"
+				},
+				{
+					"unitNumber": 51,
+					"unitText": "NORMAL / AUSGEFAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUSGEFAL"
+				},
+				{
+					"unitNumber": 52,
+					"unitText": "NORMAL / AUSGEL.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUSGEL."
+				},
+				{
+					"unitNumber": 53,
+					"unitText": "NORMAL / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 54,
+					"unitText": "NORMAL / NOTBETR",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "NOTBETR"
+				},
+				{
+					"unitNumber": 55,
+					"unitText": "NORMAL / INVERS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "INVERTS"
+				},
+				{
+					"unitNumber": 56,
+					"unitText": "NORMAL / GESPERRT",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GESPERRT"
+				},
+				{
+					"unitNumber": 57,
+					"unitText": "NORMAL / REDUZ.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "REDUZ."
+				},
+				{
+					"unitNumber": 61,
+					"unitText": "NORMAL / TIEF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "TIEF"
+				},
+				{
+					"unitNumber": 62,
+					"unitText": "NORMAL / ZUTIEF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZU TIEF"
+				},
+				{
+					"unitNumber": 63,
+					"unitText": "NORMAL / HOCH",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HOCH"
+				},
+				{
+					"unitNumber": 64,
+					"unitText": "NORMAL / ZUHOCH",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZU HOCH"
+				},
+				{
+					"unitNumber": 65,
+					"unitText": "AUF / PASSIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 66,
+					"unitText": "ZU / PASSIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 67,
+					"unitText": "EIN / PASSIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 68,
+					"unitText": "AUS / PASSIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 69,
+					"unitText": "NEIN / JA",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "JA"
+				},
+				{
+					"unitNumber": 70,
+					"unitText": "UND / ODER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ODER"
+				},
+				{
+					"unitNumber": 71,
+					"unitText": "AUS / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 72,
+					"unitText": "AUS / FREIGABE",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FREIGABE"
+				},
+				{
+					"unitNumber": 73,
+					"unitText": "ZU / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 74,
+					"unitText": "AUS / STUFE 1",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE 1"
+				},
+				{
+					"unitNumber": 75,
+					"unitText": "AUS / STUFE 2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE 2"
+				},
+				{
+					"unitNumber": 76,
+					"unitText": "AUS / STUFE 3",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE 3"
+				},
+				{
+					"unitNumber": 81,
+					"unitText": "AUS / EIN / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 82,
+					"unitText": "AUS / STUFE1 / STUFE2 / STUFE 3",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE 3"
+				},
+				{
+					"unitNumber": 83,
+					"unitText": "AUS / STUFE1 / STUFE2 / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 84,
+					"unitText": "GEREGELT / DIREKT",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "DIREKT"
+				},
+				{
+					"unitNumber": 85,
+					"unitText": "AUS / GEREGELT / DIREKT / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 86,
+					"unitText": "AUS / EIN / FEHLER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FEHLER"
+				},
+				{
+					"unitNumber": 87,
+					"unitText": "AUS / EIN / STOERUNG",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOERUNG"
+				},
+				{
+					"unitNumber": 88,
+					"unitText": "AUTO / AUS / STUFE1 / STUFE 2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE 2"
+				},
+				{
+					"unitNumber": 89,
+					"unitText": "AUTO / N. AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "N. AUTO"
+				},
+				{
+					"unitNumber": 90,
+					"unitText": "AUTO / EIN WRG / EIN RK",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "EIN RK"
+				},
+				{
+					"unitNumber": 91,
+					"unitText": "AUTO / WRG K01 / WRG K02 / WRGK01+2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WRGK01+2"
+				},
+				{
+					"unitNumber": 92,
+					"unitText": "FREQUENZ / UMGEHUNG",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "UMGEHUNG"
+				},
+				{
+					"unitNumber": 93,
+					"unitText": "AUTO / EIN GERE / EIN DIRE",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "EIN DIRE"
+				},
+				{
+					"unitNumber": 94,
+					"unitText": "0 / 1 / 2 / 3 / 4 / 5 / 6 / 7",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "7"
+				},
+				{
+					"unitNumber": 95,
+					"unitText": "AUTO / PRIO 1 / PRIO 2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PRIO 2"
+				},
+				{
+					"unitNumber": 96,
+					"unitText": "AUS / AUTO / SOMMER / WINTER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WINTER"
+				},
+				{
+					"unitNumber": 98,
+					"unitText": "NORMAL / ALARM / k.RUECKM / 3 / HAND",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HAND"
+				},
+				{
+					"unitNumber": 99,
+					"unitText": "NORMAL / OFFLINE",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OFFLINE"
+				},
+				{
+					"unitNumber": 110,
+					"unitText": "AUS / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 111,
+					"unitText": "GESCHL. / OFFEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GESCHL."
+				},
+				{
+					"unitNumber": 112,
+					"unitText": "AB / AUF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AB"
+				},
+				{
+					"unitNumber": 113,
+					"unitText": "ZU / AUF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZU"
+				},
+				{
+					"unitNumber": 114,
+					"unitText": "STOP / START",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOP"
+				},
+				{
+					"unitNumber": 115,
+					"unitText": "RUECKS. / SETZEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "RUECKS."
+				},
+				{
+					"unitNumber": 116,
+					"unitText": "ZURUECK / VOR",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 117,
+					"unitText": "ENDSTELL / AUSG.ST.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ENDSTELL"
+				},
+				{
+					"unitNumber": 118,
+					"unitText": "NACHT / TAG",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "NACHT"
+				},
+				{
+					"unitNumber": 119,
+					"unitText": "LANGSAM / SCHNELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LANGSAM"
+				},
+				{
+					"unitNumber": 120,
+					"unitText": "KUEHLEN / HEIZEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KUEHLEN"
+				},
+				{
+					"unitNumber": 121,
+					"unitText": "WINTER / SOMMER",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WINTER"
+				},
+				{
+					"unitNumber": 122,
+					"unitText": "LINKS / RECHTS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 123,
+					"unitText": "HAND / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HAND"
+				},
+				{
+					"unitNumber": 124,
+					"unitText": "PASSIV / AKTIV",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 125,
+					"unitText": "ANORMAL / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ANORMAL"
+				},
+				{
+					"unitNumber": 126,
+					"unitText": "WARTUNG / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "WARTUNG"
+				},
+				{
+					"unitNumber": 127,
+					"unitText": "STOERUNG / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOERUNG"
+				},
+				{
+					"unitNumber": 128,
+					"unitText": "ALARM / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ALARM"
+				},
+				{
+					"unitNumber": 129,
+					"unitText": "GEFAHR / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GEFAHR"
+				},
+				{
+					"unitNumber": 130,
+					"unitText": "INITIALI / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "INITIALI"
+				},
+				{
+					"unitNumber": 131,
+					"unitText": "OPTIMIER / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OPTIMIER"
+				},
+				{
+					"unitNumber": 132,
+					"unitText": "OBEN / MITTE / UNTEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OBEN"
+				},
+				{
+					"unitNumber": 133,
+					"unitText": "ZURUECK / MITTE / AUF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 134,
+					"unitText": "ZURUECK / MITTE / VOR",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZURUECK"
+				},
+				{
+					"unitNumber": 135,
+					"unitText": "ENDSTELL / MITTELST / AUSG.ST.",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ENDSTELL"
+				},
+				{
+					"unitNumber": 136,
+					"unitText": "LANGSAM / MITTEL / SCHNELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LANGSAM"
+				},
+				{
+					"unitNumber": 137,
+					"unitText": "AUS / LANGSAM / SCHNELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 138,
+					"unitText": "KUEHLEN / NEUTRAL / HEIZEN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KUEHLEN"
+				},
+				{
+					"unitNumber": 139,
+					"unitText": "LINKS / MITTE / RECHTS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 140,
+					"unitText": "LINKS / AUSG.ST. / RECHTS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 141,
+					"unitText": "LINKS / RUHEST. / RECHTS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 142,
+					"unitText": "LINKS / AUS / RECHTS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "LINKS"
+				},
+				{
+					"unitNumber": 143,
+					"unitText": "AUS / HAND / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 144,
+					"unitText": "ALARM / WARTUNG / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ALARM"
+				},
+				{
+					"unitNumber": 146,
+					"unitText": "AUS / LANGSAM",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 147,
+					"unitText": "AUS / SCHNELL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 148,
+					"unitText": "FERN / LOKAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FERN"
+				},
+				{
+					"unitNumber": 151,
+					"unitText": "AUSGEFAL / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUSGEFAL"
+				},
+				{
+					"unitNumber": 152,
+					"unitText": "AUSGEL. / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUSGEL."
+				},
+				{
+					"unitNumber": 153,
+					"unitText": "AUS / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 154,
+					"unitText": "NOTBETR / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "NOTBETR"
+				},
+				{
+					"unitNumber": 155,
+					"unitText": "INVERS / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "INVERS"
+				},
+				{
+					"unitNumber": 156,
+					"unitText": "GESPERRT / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GESPERRT"
+				},
+				{
+					"unitNumber": 157,
+					"unitText": "REDUZ. / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "REDUZ."
+				},
+				{
+					"unitNumber": 161,
+					"unitText": "TIEF / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "TIEF"
+				},
+				{
+					"unitNumber": 162,
+					"unitText": "ZUTIEF / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZUTIEF"
+				},
+				{
+					"unitNumber": 163,
+					"unitText": "HOCH / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HOCH"
+				},
+				{
+					"unitNumber": 164,
+					"unitText": "ZUHOCH / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ZUHOCH"
+				},
+				{
+					"unitNumber": 165,
+					"unitText": "PASSIV / AUF",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 166,
+					"unitText": "PASSIV / ZU",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 167,
+					"unitText": "PASSIV / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 168,
+					"unitText": "PASSIV / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "PASSIV"
+				},
+				{
+					"unitNumber": 169,
+					"unitText": "JA / NEIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "JA"
+				},
+				{
+					"unitNumber": 170,
+					"unitText": "ODER / UND",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "ODER"
+				},
+				{
+					"unitNumber": 171,
+					"unitText": "AUTO / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 172,
+					"unitText": "FREIGABE / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FREIGABE"
+				},
+				{
+					"unitNumber": 173,
+					"unitText": "AUTO / ZU",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 174,
+					"unitText": "STUFE1 / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE1"
+				},
+				{
+					"unitNumber": 175,
+					"unitText": "STUFE2 / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE2"
+				},
+				{
+					"unitNumber": 176,
+					"unitText": "STUFE3 / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE3"
+				},
+				{
+					"unitNumber": 181,
+					"unitText": "AUTO / EIN / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 182,
+					"unitText": "STUFE3 / STUFE2 / STUFE1 / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STUFE3"
+				},
+				{
+					"unitNumber": 183,
+					"unitText": "AUTO / STUFE2 / STUFE1 / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 184,
+					"unitText": "DIREKT / GEREGELT",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "DIREKT"
+				},
+				{
+					"unitNumber": 185,
+					"unitText": "AUTO / DIREKT / GEREGELT / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 186,
+					"unitText": "FEHLER / EIN / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "FEHLER"
+				},
+				{
+					"unitNumber": 187,
+					"unitText": "STOERUNG / EIN / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "STOERUNG"
+				},
+				{
+					"unitNumber": 189,
+					"unitText": "N.AUTO / AUTO",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "N.AUTO"
+				},
+				{
+					"unitNumber": 192,
+					"unitText": "UMGEHUNG / FREQUENZ",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "UMGEHUNG"
+				},
+				{
+					"unitNumber": 193,
+					"unitText": "GESTOERT / AUFBAU / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GESTOERT"
+				},
+				{
+					"unitNumber": 194,
+					"unitText": "AUS / AUTO / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 195,
+					"unitText": "AUTO / STUFE1 / STUFE2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUTO"
+				},
+				{
+					"unitNumber": 196,
+					"unitText": "KEINFUNK / AUS / AUTO / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KEINFUNK"
+				},
+				{
+					"unitNumber": 197,
+					"unitText": "GAS / OEL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "GAS"
+				},
+				{
+					"unitNumber": 198,
+					"unitText": "KEINFUNK / AUTO / AUS / EIN",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "KEINFUNK"
+				},
+				{
+					"unitNumber": 199,
+					"unitText": "OFFLINE / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "OFFLINE"
+				},
+				{
+					"unitNumber": 200,
+					"unitText": "KEINFUNK / AUS / STUFE1 / STUFE2 / STUFE3",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 201,
+					"unitText": "KEINFUNK / AUS / AUTO / PUMPE1 / PUMPE2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 202,
+					"unitText": "KEINFUNK / AUS / AUTO / STUFE1 / STUFE2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 203,
+					"unitText": "AUS / AUTO / EIN / BYPASS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 204,
+					"unitText": "KEINFUNK / AUS / AUTO / AUS / BYPASS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 299,
+					"unitText": "KEINFUNK / AUTO / AUS / STUFE1 / STUFE2",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 2,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 300,
+					"unitText": "KEINFUNK / HANDAUS / NORMAL",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 1,
+					"sendText": "HAND AUS"
+				},
+				{
+					"unitNumber": 301,
+					"unitText": "KEINFUNK / AUTO / AUS / Heizen / Kuehlen",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 2,
+					"sendText": "AUS"
+				},
+				{
+					"unitNumber": 302,
+					"unitText": "KEINFUNK / AUTO / EIN / AUS",
+					"type": "Bit",
+					"defaultValue": 0,
+					"alarmValue": 2,
+					"sendText": "EIN"
+				}
+			]
+		},
+		"settings": {
+			"length": "22",
+			"delimeter": "_",
+			"forbidden": "*-",
+			"cell": "bla",
+			"columns": [
+				{
+					"i": 0,
+					"text": "Name[1]"
+				},
+				{
+					"i": 1,
+					"text": "Name[2]"
+				},
+				{
+					"i": 2,
+					"text": "Name[3]"
+				},
+				{
+					"i": 3,
+					"text": "UnitText"
+				},
+				{
+					"i": 4,
+					"text": "DescriptionText"
+				},
+				{
+					"i": 5,
+					"text": "$UserAddresse"
+				},
+				{
+					"i": 6,
+					"text": "MessagePriority"
+				}
+			]
+		}
+	}
+}
